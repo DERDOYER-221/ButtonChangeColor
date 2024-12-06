@@ -8,16 +8,19 @@ const colorText = document.getElementsByClassName('color-text')[0];
 btnChangeWindowSize.addEventListener('mouseenter', function() {
 	btnChangeWindowSizeSpan.style.color = 'white';
   btnChangeWindowSizeSpan.style.fontStyle = 'italic';
-  if (windowChangeSize.classList.contains('calm-blue')) {
-  	btnChangeWindowSizeSpan.style.textShadow = '0.5px 0.5px #F3D2D3';
+  
+  
+})
+
+if (windowChangeSize.classList.contains('calm-blue')) {
+    btnChangeWindowSizeSpan.style.textShadow = '0.5px 0.5px #F3D2D3';
     colorValue.innerHTML = 'Calm Blue';
     colorText.style.color = 'white';
-  } else {
-  	btnChangeWindowSizeSpan.style.textShadow = '0.5px 0.5px #4895BF';
+} else {
+    btnChangeWindowSizeSpan.style.textShadow = '0.5px 0.5px #4895BF';
     colorValue.innerHTML = 'Light Pink';
     colorText.style.color = 'black';
   }
-})
 
 btnChangeWindowSize.addEventListener('mouseleave', function() {
 	btnChangeWindowSizeSpan.style.color = 'white';
