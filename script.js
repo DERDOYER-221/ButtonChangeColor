@@ -6,7 +6,7 @@ const colorValue = document.getElementsByClassName('color-value')[0];
 const colorText = document.getElementsByClassName('color-text')[0];
 
 btnChangeWindowSize.addEventListener('mouseenter', function() {
-	btnChangeWindowSizeSpan.style.color = 'white';
+  btnChangeWindowSizeSpan.style.color = 'white';
   btnChangeWindowSizeSpan.style.fontStyle = 'italic';
   
   
