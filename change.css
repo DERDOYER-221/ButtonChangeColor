@@ -19,7 +19,7 @@
     }
     
     
-    #btn-change-window-size {
+/*     #btn-change-window-size {
       font-size: 1.4rem;
       height: 40px;
       width: 180px;
@@ -34,7 +34,7 @@
   #btn-change-window-size:hover {
     transform: scale(1.05);
     border: 1px solid black;
-  }
+  } */
   
   .window.calm-blue {
     background-color: #4895BF;
