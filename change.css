@@ -18,7 +18,22 @@
       background-color: #F3D2D3;
     }
     
+    #btn-change-window-size {
+      font-size: 1.4rem;
+      height: 40px;
+      width: 180px;
+      text-align: center;
+      white-space: nowrap;
+      background-color: rgba(149,91,201, 0.7);
+      border: 1px solid rgb(149,91,201);
+      transition: 0.4s ease;
+      margin-bottom: 15px;
+    }
     
+  #btn-change-window-size:hover {
+    transform: scale(1.05);
+    border: 1px solid black;
+  } 
   
   .window.calm-blue {
     background-color: #4895BF;
